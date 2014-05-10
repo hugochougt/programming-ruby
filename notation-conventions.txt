@@ -1,0 +1,5 @@
+class method: Fred.new or Fred::new
+
+instance method: Fred#do_something
+
+class constant: Fred::EOF
