@@ -1,0 +1,5 @@
+Ruby website: http://www.ruby-lang.org
+
+example code: http://pragprog.com/book/ruby4
+
+errata page: http://pragprog.com/titles/ruby4/errata
