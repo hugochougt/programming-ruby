@@ -15,3 +15,11 @@ Ruby remembers the order in which you add items to a hash. When you subsequently
 ## Unit Test
 
 任何继承了 Test::Unit::TestCase 的类，any methods whose names start with **test** are automatically run by the testing framework.
+
+## Blocks
+
+Parameters to a block are **always** local to a block, even if they have the same name as locals in the surrounding scope.
+
+A Ruby iterator is simply a method that can invoke a block of code.
+
+
