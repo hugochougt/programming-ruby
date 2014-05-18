@@ -22,4 +22,10 @@ Parameters to a block are **always** local to a block, even if they have the sam
 
 A Ruby iterator is simply a method that can invoke a block of code.
 
+不定参数：`*args`
 
+定义类方法：在变量方法前加 `self.`
+
+## closure
+
+Variables in the surrounding scope that are referenced in a block remain accessible for the life of that block and the life of any *Proc* object created from the block.
