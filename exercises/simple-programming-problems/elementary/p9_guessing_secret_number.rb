@@ -4,16 +4,16 @@ guessing_time = 0
 prev_guessing = -1
 the_secret_number = Random.new.rand(9999)
 
-puts "Enter a number that greater than 0 (game will quit after enter a negative)" 
+puts "Enter a number >= 0 (game will QUIT after enter a negative)" 
 
 while (num = gets.chop.to_i) > 0
   next if num == prev_guessing
   guessing_time += 1
 
   if num > the_secret_number
-    puts "Too greate"
+    puts "Too GREAT"
   elsif num < the_secret_number
-    puts "Too small"
+    puts "Too SMALL"
   else
     puts "Bingo!!"
     break
