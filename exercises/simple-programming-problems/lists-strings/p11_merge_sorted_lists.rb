@@ -23,11 +23,11 @@ def merge(sorted_lst1, sorted_lst2)
   end
 
   if i < sorted_lst1.length
-    lst.concat sorted_lst1[i, sorted_lst1.length]
+    lst.concat sorted_lst1[i...sorted_lst1.length]
   end
 
   if j < sorted_lst2.length
-    lst.concat sorted_lst2[j, sorted_lst2.length]
+    lst.concat sorted_lst2[j...sorted_lst2.length]
   end
 
   return lst
