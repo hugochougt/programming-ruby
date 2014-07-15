@@ -33,3 +33,6 @@ def merge(sorted_lst1, sorted_lst2)
   return lst
 end
 
+# NOTE: A simpler solution
+# lst1.clone.concat(lst2).sort
+
