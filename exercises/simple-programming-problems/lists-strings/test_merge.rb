@@ -8,9 +8,9 @@ class TestMerge < Test::Unit::TestCase
     arr2 = [2, 4, 6, 7]
     assert_equal([1, 2, 4, 6, 7, 8], merge(arr1, arr2))
 
-    arr1 = [11]
+    arr1 = [11, 22, 33]
     arr2 = [1, 2, 3, 4]
-    assert_equal([1, 2, 3, 4, 11], merge(arr1, arr2))
+    assert_equal([1, 2, 3, 4, 11, 22, 33], merge(arr1, arr2))
   end
 
 end
