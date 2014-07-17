@@ -1,4 +1,4 @@
-require_relative 'p11_merge_sorted_lists'
+require 'p11_merge_sorted_lists'
 require 'test/unit'
 
 class TestMerge < Test::Unit::TestCase

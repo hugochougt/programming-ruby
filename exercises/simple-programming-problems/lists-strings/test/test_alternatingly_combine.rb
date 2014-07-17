@@ -1,4 +1,4 @@
-require_relative 'p10_alternatingly_combine'
+require 'p10_alternatingly_combine'
 require 'test/unit'
 
 class TestCombine < Test::Unit::TestCase

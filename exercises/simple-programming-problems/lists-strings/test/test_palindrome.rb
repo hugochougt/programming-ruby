@@ -1,4 +1,4 @@
-require_relative 'p6_palindrome'
+require 'p6_palindrome'
 require 'test/unit'
 
 class TestPalindrome < Test::Unit::TestCase

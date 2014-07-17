@@ -1,4 +1,4 @@
-require_relative 'p13_number_to_digits.rb'
+require 'p13_number_to_digits.rb'
 require 'test/unit'
 
 class TestNumberToDigits < Test::Unit::TestCase

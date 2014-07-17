@@ -1,4 +1,4 @@
-require_relative 'p3_contains'
+require 'p3_contains'
 require 'test/unit'
 
 class TestContains < Test::Unit::TestCase

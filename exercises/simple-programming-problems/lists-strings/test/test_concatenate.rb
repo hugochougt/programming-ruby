@@ -1,4 +1,4 @@
-require_relative 'p9_concatenate_two_lists'
+require 'p9_concatenate_two_lists'
 require 'test/unit'
 
 class TestConcatenate < Test::Unit::TestCase

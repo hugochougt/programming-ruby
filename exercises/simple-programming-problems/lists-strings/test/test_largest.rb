@@ -1,4 +1,4 @@
-require_relative 'p1_largest_element'
+require 'p1_largest_element'
 require 'test/unit'
 
 class TestLargest < Test::Unit::TestCase

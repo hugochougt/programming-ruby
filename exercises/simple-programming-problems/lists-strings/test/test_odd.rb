@@ -1,4 +1,4 @@
-require_relative 'p4_select_odd_items'
+require 'p4_select_odd_items'
 require 'test/unit'
 
 class TestOdd < Test::Unit::TestCase

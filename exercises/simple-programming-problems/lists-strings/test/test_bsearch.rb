@@ -1,4 +1,4 @@
-require_relative 'p16_binary_search'
+require 'p16_binary_search'
 require 'test/unit'
 
 class TestBinarySearch < Test::Unit::TestCase
