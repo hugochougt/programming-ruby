@@ -1,0 +1,11 @@
+require 'test/unit'
+require 'test_alternatingly_combine'
+require 'test_bsearch'
+require 'test_concatenate'
+require 'test_contains'
+require 'test_largest'
+require 'test_merge'
+require 'test_number_to_digits'
+require 'test_odd'
+require 'test_palindrome'
+
