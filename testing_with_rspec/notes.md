@@ -8,6 +8,13 @@
 rpsec --init
 ```
 
+.rspec
+
+```
+--color
+--require spec_helper
+```
+
 spec/lib/zombie_spec.rb <<== <name_of_spec>_spec.rb
 
 ```ruby
