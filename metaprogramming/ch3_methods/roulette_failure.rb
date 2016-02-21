@@ -13,4 +13,3 @@ end
 number_of = Roulette.new
 puts number_of.bob
 # SystemStackError: stack level too deep
-
