@@ -1,4 +1,4 @@
 .rvmrc
 .ruby-*
 .rbenv-gemsets
-
+*.db
