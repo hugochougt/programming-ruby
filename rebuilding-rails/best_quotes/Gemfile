@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'rulers', path: '../rulers'
+
+# Restarts an app when the filesystem changes
+# https://github.com/alexch/rerun
+group :development do
+  gem 'rerun'
+end
